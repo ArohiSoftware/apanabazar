@@ -1,5 +1,7 @@
 import React from 'react'
-import { GroceryCard } from '../../Components/Grocery/GroceryCard'
+import { GroceryCard } from '../../../Components/Grocery/GroceryCard'
+import './Cookingoil.css'
+
 import logo from './veg-logo.svg'
 
 
@@ -15,7 +17,8 @@ import sundropoil from '../Cookingoil/sundrop-lite-cooking-oil-img.webp'
 import sunfloweroil from '../Cookingoil/sunflower-cooking-oil-img.webp'
 import coconutoil from '../Cookingoil/unrefined-cold-pressed-virgin-coconut-oil-img.webp'
 
-export function CookingOil() {
+
+export function Cookingoil() {
 
 const CookingOilData = [
   {
@@ -119,7 +122,7 @@ const CookingOilData = [
 
 
   {
-    productname:"Organic Cold Pressed Sunflower Cooking Oil" ,
+    productname:" Sunflower Cooking Oil" ,
     productimg: sunfloweroil ,
     productprice:"₹450" ,
     aplabazarprice:"₹324",
@@ -131,7 +134,7 @@ const CookingOilData = [
 
 
   {
-    productname:"Pure & Unrefined Cold Pressed Virgin Coconut Oil-Naturally" ,
+    productname:" Unrefined  Coconut Oil-Naturally" ,
     productimg: coconutoil ,
     productprice:"₹699" ,
     aplabazarprice:"₹524",
@@ -140,33 +143,28 @@ const CookingOilData = [
     logo : logo,
   },
 
-  {
-    productname:"Total Balance Oil & Soyabean Oil" ,
-    productimg: soyabeanoil ,
-    productprice:"₹160" ,
-    aplabazarprice:"₹139",
-    offprice:"₹13",
-    quantity:"1 L",
-    logo : logo,
-  },
+ 
 
 ];
 return(
-
 <>
-
+<div className='cookingoilcards'>
 {
+  
   CookingOilData.map(
     (data) => {
     
   return (
+
     
-     <GroceryCard  productname={data.productname} productimg={productimg} productprice={productprice} aplabazarprice={aplabazarprice} offprice={offprice} quantity={quantity} logo={logo} />
-  )
-}
+     <GroceryCard  productname={data.productname} productimg={data.productimg} productprice={data.productprice} aplabazarprice={data.aplabazarprice} offprice={data.offprice} quantity={data.quantity} logo={data.logo} />
+  
   )
 }
 
+  )
+}
+</div>
 </>
     
   )

@@ -1,26 +1,24 @@
 import React from 'react'
 
 import logo from './veg-logo.svg'
-
-
-import pumpkinseed from '../Dryfruits/green-pumpkin-seeds-img.webp'
-import liondates from '../Dryfruits/lion-dates-img.webp'
-import kismis from '../Dryfruits/organic-kismis-img.webp'
-import pista from '../Dryfruits/pista-kernel-img.webp'
-import raisinkishmish from '../Dryfruits/raisinskishmish-black-with-seeds-img.webp'
-import sabja from '../Dryfruits/seeds-sabja-img.webp'
-import walnutakhrot from '../Dryfruits/walnutakhrot-kernels-chile-img.webp'
-import watermelonseed from '../Dryfruits/watermelontarbuj-seeds-img.webp'
 import { GroceryCard } from '../../../Components/Grocery/GroceryCard'
 
+import chana from '../Pulses/chana-dal-img.webp'
+import greenharimoog from '../Pulses/greenhari-moong-dalchilka-unpolished-high-in-protein-dietary-fibre.webp'
+import masoordal from '../Pulses/masoor-dal-img.webp'
+import mixdal from '../Pulses/mix-dal-img.webp'
+import moongdal from '../Pulses/moong-dal-img.webp'
+import toordal from '../Pulses/toor-arhar-dal-img.webp'
+import uraddal from '../Pulses/urad-dal-white-img.webp'
 
 
-export function Dryfruits() {
 
-const DryfruitsData = [
+export function Pulses() {
+
+const PulsesData = [
   {
     productname:"Green Pumpkin Seeds" ,
-    productimg: pumpkinseed ,
+    productimg: chana ,
     productprice:"₹50" ,
     aplabazarprice:"₹49",
     offprice:"₹1",
@@ -31,7 +29,7 @@ const DryfruitsData = [
 
   {
     productname:"Dates/Kharjura" ,
-    productimg: liondates ,
+    productimg: greenharimoog ,
     productprice:"₹185" ,
     aplabazarprice:"₹180",
     offprice:"₹5",
@@ -42,7 +40,7 @@ const DryfruitsData = [
 
   {
     productname:"Organic kismis/Raisins" ,
-    productimg: kismis ,
+    productimg: masoordal ,
     productprice:"₹599" ,
     aplabazarprice:"₹493",
     offprice:"₹18",
@@ -52,7 +50,7 @@ const DryfruitsData = [
 
   {
     productname:"Pista Magaj-Plain Kernel " ,
-    productimg: pista ,
+    productimg: mixdal ,
     productprice:"₹300" ,
     aplabazarprice:"₹226",
     offprice:"₹25",
@@ -64,7 +62,7 @@ const DryfruitsData = [
 
   {
     productname:"Black Raisins" ,
-    productimg: raisinkishmish ,
+    productimg: moongdal ,
     productprice:"₹120" ,
     aplabazarprice:"₹93",
     offprice:"₹23",
@@ -74,39 +72,30 @@ const DryfruitsData = [
 
 
   {
-    productname:"Sabja" ,
-    productimg: sabja ,
+    productname:"" ,
+    productimg: toordal ,
     productprice:"₹180" ,
     aplabazarprice:"₹130",
     offprice:"₹50",
-    quantity:"100 g",
+    quantity:"1 L",
     logo : logo,
   },
 
 
 
   {
-    productname:"Walnut/Akhrot" ,
-    productimg: walnutakhrot ,
-    productprice:"₹1000" ,
-    aplabazarprice:"₹774",
-     offprice:"₹23",
-    quantity:"500 g",
+    productname:"Sesame Oil" ,
+    productimg: uraddal ,
+    productprice:"₹625" ,
+    aplabazarprice:"₹625",
+     offprice:"₹19",
+    quantity:"1 L",
     logo : logo,
   },
 
 
 
-  {
-    productname:"Watermelon Seeds/Kallangadi Bija" ,
-    productimg: watermelonseed ,
-    productprice:"₹80" ,
-    aplabazarprice:"₹53",
-    offprice:"₹34",
-    quantity:"50 g",
-    logo : logo,
-  },
-
+  
   
 
 ];
@@ -115,7 +104,7 @@ return(
 <>
 
 {
-  DryfruitsData.map(
+  PulsesData.map(
     (data) => {
     
   return (
