@@ -1,0 +1,34 @@
+.maen{
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: space-around;
+  
+}
+.pic{
+    height: 100px;
+    margin: 20px;
+    /* text-align: center; */
+}
+.product{
+    height: 150px;
+    width: 150px;
+    border: 1px solid gray;
+    text-align: center;
+}
+.container{
+    height: 220px;
+    width: 1500px;
+    border: 0.5px solid black;
+    /* padding-top: 30px; */
+    margin: 30px;
+    background-color: rgb(249, 249, 249);
+}
+.h2{
+    text-align: center;
+    /* background-color: rgb(236, 227, 227); */
+}
+.b{
+    margin-left: 30px;
+    /* margin: 4px; */
+}
