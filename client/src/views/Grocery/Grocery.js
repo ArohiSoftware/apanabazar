@@ -1,9 +1,13 @@
 import React from 'react'
 
+import { CookingOil } from './Cookingoil/Cookingoil'
+
 function Grocery() {
   return (
     <div>
-      Grocery
+     <CookingOil/>
+     
+
     </div>
   )
 }
