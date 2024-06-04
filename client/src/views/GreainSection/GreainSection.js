@@ -16,7 +16,7 @@ function GreainSection() {
     {
      productimg:bajra,
     //  logo: 
-    productname:'Baby sipper bottel',
+    productname:'Bajra',
     offprice:'₹30',
     productprice:'₹280',
     aplabazaeprice:'₹230',
@@ -25,7 +25,7 @@ function GreainSection() {
     {
       productimg:barley,
      //  logo: 
-     productname:'Baby sipper bottel',
+     productname:'Barley',
      offprice:'₹30',
      productprice:'₹280',
      aplabazaeprice:'₹230',
