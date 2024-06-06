@@ -1,23 +1,13 @@
 import React from 'react'
 
 import logo from './veg-logo.svg'
-
-
-import pumpkinseed from '../Dryfruits/green-pumpkin-seeds-img.webp'
-import liondates from '../Dryfruits/lion-dates-img.webp'
-import kismis from '../Dryfruits/organic-kismis-img.webp'
-import pista from '../Dryfruits/pista-kernel-img.webp'
-import raisinkishmish from '../Dryfruits/raisinskishmish-black-with-seeds-img.webp'
-import sabja from '../Dryfruits/seeds-sabja-img.webp'
-import walnutakhrot from '../Dryfruits/walnutakhrot-kernels-chile-img.webp'
-import watermelonseed from '../Dryfruits/watermelontarbuj-seeds-img.webp'
 import { GroceryCard } from '../../../Components/Grocery/GroceryCard'
 
 
 
-export function Dryfruits() {
+export function Womens() {
 
-const DryfruitsData = [
+const WomensData = [
   {
     productname:"Green Pumpkin Seeds" ,
     productimg: pumpkinseed ,
@@ -74,36 +64,36 @@ const DryfruitsData = [
 
 
   {
-    productname:"Sabja" ,
+    productname:"" ,
     productimg: sabja ,
     productprice:"₹180" ,
     aplabazarprice:"₹130",
     offprice:"₹50",
-    quantity:"100 g",
+    quantity:"1 L",
     logo : logo,
   },
 
 
 
   {
-    productname:"Walnut/Akhrot" ,
+    productname:"Sesame Oil" ,
     productimg: walnutakhrot ,
-    productprice:"₹1000" ,
-    aplabazarprice:"₹774",
-     offprice:"₹23",
-    quantity:"500 g",
+    productprice:"₹625" ,
+    aplabazarprice:"₹625",
+    // offprice:"₹19",
+    quantity:"1 L",
     logo : logo,
   },
 
 
 
   {
-    productname:"Watermelon Seeds/Kallangadi Bija" ,
+    productname:"Total Balance Oil & Soyabean Oil" ,
     productimg: watermelonseed ,
-    productprice:"₹80" ,
-    aplabazarprice:"₹53",
-    offprice:"₹34",
-    quantity:"50 g",
+    productprice:"₹160" ,
+    aplabazarprice:"₹139",
+    offprice:"₹13",
+    quantity:"1 L",
     logo : logo,
   },
 
@@ -115,7 +105,7 @@ return(
 <>
 
 {
-  DryfruitsData.map(
+  WomensData.map(
     (data) => {
     
   return (
