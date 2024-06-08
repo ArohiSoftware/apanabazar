@@ -4,31 +4,34 @@
        border: 0.01px solid rgb(210, 207, 207);
        border-radius: 5px;
        margin: 20px;
+       
 
    }
 
    .box {
-       margin-left: 80px;
+       margin-left: 130px;
+       margin-right: -90px;
        display: inline-block;
        display: wrap;
-       margin-bottom: 30px;
+       margin-bottom: 90px;
 
    }
 
 
    .logo {
+
        margin-left: 250px;
        margin-top: -150px;
-
+       
    }
-
-
 
    .imgg {
        height: 150px;
        width: 150px;
        margin-left: 68px;
        margin-top: 15px;
+       
+       
    }
 
    .Product-name {
@@ -64,22 +67,15 @@
        margin-left: 60px;
    }
 
-   input {
-
-       border: 1px solid #a3a2a2;
-       margin-left: 40px;
-       width: 75%;
-       margin-top: 10px;
-
-   }
+   
 
    .mrpinfo {
        margin-top: -20px;
+       margin-bottom: 30px;
    }
 
 
    .bttn {
-       margin-top: -50px;
        height: 33px;
        width: 265px;
        text-align: center;
@@ -88,9 +84,6 @@
        border-radius: 5px;
        border: 1px solid #25a541;
        background-color: #25a541;
-       margin-top: 10px;
-       margin-left: 40px;
-
 
    }
 
@@ -107,5 +100,6 @@
        font-size: large;
        margin-left: 250px;
        text-align: center;
-       margin-top: 70px;
+       margin-top: 80px;
+      
    }

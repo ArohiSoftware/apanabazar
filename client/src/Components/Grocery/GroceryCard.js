@@ -9,8 +9,10 @@ export function GroceryCard({ productimg, logo, productname, productprice, aplab
     <>
   <div className='box'>
         <div className='card'>
+        <div>
           <img className='imgg' src={productimg} />
-          <img  className='logo' src={logo} />
+          {/* <img  className='logo' src={logo} /> */}
+          </div>
           </div>
         
           <div>
@@ -38,9 +40,9 @@ export function GroceryCard({ productimg, logo, productname, productprice, aplab
             </div> 
 
             
-            <input type='text' value={quantity}  className='input'/>
-            <div>
-            <button className='bttn'>ADD TO CART </button>
+            
+            <div className='bttn'>
+            <button >ADD TO CART </button>
             </div>
 
             </div>

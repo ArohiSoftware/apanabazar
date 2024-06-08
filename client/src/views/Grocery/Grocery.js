@@ -9,7 +9,7 @@ import { Flours } from './Flours/Flours'
 function Grocery() {
   return (
     <>
-    <h1 className='pagename'>Cooking Oils</h1>
+    
      {/* <Dryfruits/> */}
      <Flours/>
      
