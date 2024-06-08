@@ -9,12 +9,16 @@ function KiddsWare()
  {
   
 return(
-<>
+<div>
+<h1 className='baby'><b>BABY ACCESSORIES</b></h1>
 <Accessories/>
+<h1 className='baby'><b>BATH & SKINCARE</b></h1>
 <Bath/>
+<h1 className='baby'><b>DIAPER & WIPES</b></h1>
 <Diaper/>
+<h1 className='baby'><b>FEEDING & NURSSING</b> </h1>
 <Nurssing/>
-</>
+</div>
 )
 }
 

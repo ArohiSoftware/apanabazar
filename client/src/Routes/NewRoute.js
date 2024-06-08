@@ -7,7 +7,7 @@ import KiddsWare from "../views/KiddsWare/KiddsWare";
 import GreainSection from "../views/GreainSection/GreainSection";
 import Greenary from "../views/Greenary/Greenary";
 import Login from "../views/Login/Login";
-import Signup from "../views/Registration/Signup";
+import Signup from "../views/Signup/Signup";
 import Grocery from "../views/Grocery/Grocery";
 
 function NewRoute() {

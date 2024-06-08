@@ -2,3 +2,7 @@
     display: inline-block;
     justify-content: space-evenly;
 }
+.baby{
+    margin: 10px 100px;
+    font-size: larger;
+}

@@ -36,19 +36,13 @@ export function Kidscard({productimg , logo , productname , offprice , productpr
                     </div> 
         
                     
-                    <input type='text' value={quantity}  className='input'/>
+                   
                     <div>
                     <button className='bttn'>ADD TO CART </button>
                     </div>
         
                     </div>
-                 
-                
-        
-        
-        
-        
-        
+
             </>
           
     )
