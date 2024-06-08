@@ -17,7 +17,7 @@ function Accessories()
    const product=[
         {
          productimg:brushset,
-        //  logo: 
+        //  logo: ww
         productname:'Baby sipper bottel',
         offprice:'₹30',
         productprice:'₹280',
