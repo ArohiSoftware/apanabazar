@@ -1,10 +1,11 @@
 import React from 'react'
+import { Womens } from './womens footware/Womens'
 
 function Footeware() {
   return (
-    <div>
-      Footeware
-    </div>
+   <>
+   <Womens/>
+   </>
   )
 }
 
