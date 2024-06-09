@@ -178,7 +178,7 @@ const FloursData = [
 ];
 return(
 
-<>
+<div className='flex  flex-wrap w-full'>
 
 {
   FloursData.map(
@@ -192,7 +192,7 @@ return(
   )
 }
 
-</>
+</div>
     
   )
 }

@@ -101,7 +101,7 @@ const PulsesData = [
 ];
 return(
 
-<>
+<div className='flex  flex-wrap w-full'>
 
 {
   PulsesData.map(
@@ -115,7 +115,7 @@ return(
   )
 }
 
-</>
+</div>
     
   )
 }
