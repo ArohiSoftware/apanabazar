@@ -148,7 +148,7 @@ const CookingOilData = [
 ];
 return(
 <>
-<div className='cookingoilcards'>
+<div className='cookingoilcards flex flex-wrap '>
 {
   
   CookingOilData.map(

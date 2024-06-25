@@ -10,7 +10,7 @@ export function GroceryCard({ productimg, logo, productname, productprice, aplab
   <div className='box'>
         <div className='card'>
         <div>
-          <img className='imgg' src={productimg} />
+          <img alt={productname} className='imgg' src={productimg} />
           {/* <img  className='logo' src={logo} /> */}
           </div>
           </div>

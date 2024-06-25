@@ -6,7 +6,7 @@ import { GroceryCard } from '../../../Components/Grocery/GroceryCard'
 import blacksalt from '../Salt-Sugar-Jaggery/black-salt-powder-img.webp'
 import brownsugar from '../Salt-Sugar-Jaggery/brown-sugar-img.webp'
 import coconutsugar from '../Salt-Sugar-Jaggery/coconut-sugar-img.webp'
-import lowsodiumsugar from '../Salt-Sugar-Jaggery/low-sodium-iodised-sugar-img.webp'
+import lowsodiumsugar from './low-sodium-iodised-salt-img.webp'
 import misrisugar from '../Salt-Sugar-Jaggery/misri-diamond-sugar-img.webp'
 import rocksalt from '../Salt-Sugar-Jaggery/rock-salt-pink-img.webp'
 import tatasalt from '../Salt-Sugar-Jaggery/tata-salt-iodized-img.webp'
@@ -112,7 +112,7 @@ const SaltData = [
 ];
 return(
 
-<>
+<div className='flex  flex-wrap w-full'>
 
 {
   SaltData.map(
@@ -126,7 +126,7 @@ return(
   )
 }
 
-</>
+</div>
     
   )
 }

@@ -11,7 +11,7 @@ import raisinkishmish from '../Dryfruits/raisinskishmish-black-with-seeds-img.we
 import sabja from '../Dryfruits/seeds-sabja-img.webp'
 import walnutakhrot from '../Dryfruits/walnutakhrot-kernels-chile-img.webp'
 import watermelonseed from '../Dryfruits/watermelontarbuj-seeds-img.webp'
-import { GroceryCard } from '../../../Components/Grocery/GroceryCard'
+import  {GroceryCard}  from '../../../Components/Grocery/GroceryCard'
 
 
 
@@ -26,6 +26,7 @@ const DryfruitsData = [
     offprice:"₹1",
     quantity:"50 g",
     logo : logo,
+    catogery:"Dry Fruits"
   },
 
 
@@ -37,6 +38,7 @@ const DryfruitsData = [
     offprice:"₹5",
     quantity:"500 g",
     logo : logo,
+    catogery:"Dry Fruits"
   },
 
 
@@ -48,6 +50,7 @@ const DryfruitsData = [
     offprice:"₹18",
     quantity:"1 kg",
     logo : logo,
+    catogery:"Dry Fruits"
   },
 
   {
@@ -58,6 +61,7 @@ const DryfruitsData = [
     offprice:"₹25",
     quantity:"100 g",
     logo : logo,
+    catogery:"Dry Fruits"
   },
 
 
@@ -70,6 +74,7 @@ const DryfruitsData = [
     offprice:"₹23",
     quantity:"200 g",
     logo : logo,
+    catogery:"Dry Fruits"
   },
 
 
@@ -81,6 +86,7 @@ const DryfruitsData = [
     offprice:"₹50",
     quantity:"100 g",
     logo : logo,
+    catogery:"Dry Fruits"
   },
 
 
@@ -93,6 +99,7 @@ const DryfruitsData = [
      offprice:"₹23",
     quantity:"500 g",
     logo : logo,
+    catogery:"Dry Fruits"
   },
 
 
@@ -105,6 +112,7 @@ const DryfruitsData = [
     offprice:"₹34",
     quantity:"50 g",
     logo : logo,
+    catogery:"Dry Fruits"
   },
 
   
@@ -112,7 +120,7 @@ const DryfruitsData = [
 ];
 return(
 
-<>
+<div className=' flex  flex-wrap w-full  '>
 
 {
   DryfruitsData.map(
@@ -126,7 +134,7 @@ return(
   )
 }
 
-</>
+</div>
     
   )
 }

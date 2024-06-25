@@ -3,21 +3,21 @@ import React from 'react'
 import logo from './veg-logo.svg'
 import { GroceryCard } from '../../../Components/Grocery/GroceryCard'
 
-import chillipowder from '../Masala & Spices/aashirvaad-powder-chilli-img.webp'
-import flowerstar from '../Masala & Spices/ananas-flowerstar-anise-img.webp'
-import biryanimasal from '../biryani-masala-img.webp'
-import chholemasala from '../Masala & Spices/chhole-masala-img.webp'
-import cloveslaung from '../Masala & Spices/cloveslaung-img.webp'
-import corianderpowder from '../Masala & Spices/coriander-powder-img.webp'
-import methi from '../Masala & Spices/kasuri-methi-img.webp'
-import chaatmasala from '../Masala & Spices/masala-chaat-img.webp'
-import meatmasala from '../Masala & Spices/masala-meat-img.webp'
-import saunf from '../Masala & Spices/organic-saunf-img.webp'
-import pavbhajimasala from '../Masala & Spices/pav-bhaji-masala-img.webp'
-import hingpowder from '../Masala & Spices/powder-hing-img.webp'
-import shahjeera from '../Masala & Spices/royal-shahjeera-img.webp'
-import stoneflower from '../Masala & Spices/stone-flower-img.webp'
-import turmericpowder from '../Masala & Spices/turmeric-powder-img.webp' 
+import chillipowder from './aashirvaad-powder-chilli-img.webp'
+import flowerstar from './ananas-flowerstar-anise-img.webp'
+import biryanimasal from './biryani-masala-img.webp'
+import chholemasala from './chhole-masala-img.webp'
+import cloveslaung from './cloveslaung-img.webp'
+import corianderpowder from './coriander-powder-img.webp'
+import methi from './kasuri-methi-img.webp'
+import chaatmasala from './masala-chaat-img.webp'
+import meatmasala from './masala-meat-img.webp'
+import saunf from './organic-saunf-img.webp'
+import pavbhajimasala from './pav-bhaji-masala-img.webp'
+import hingpowder from './powder-hing-img.webp'
+import shahjeera from './royal-shahjeera-img.webp'
+import stoneflower from './stone-flower-img.webp'
+import turmericpowder from './turmeric-powder-img.webp' 
 
 
 
@@ -190,7 +190,7 @@ const MasalaData = [
 ];
 return(
 
-<>
+<div className='flex  flex-wrap w-full'>
 
 {
   MasalaData.map(
@@ -204,7 +204,7 @@ return(
   )
 }
 
-</>
+</div>
     
   )
 }
